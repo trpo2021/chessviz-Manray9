@@ -1,3 +1,3 @@
 all:main
-main:main.c
-	gcc -Wall -Werror main.c
+main:main.cpp
+	gcc -Wall -Werror main.cpp
