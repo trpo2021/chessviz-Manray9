@@ -1,6 +1,6 @@
 // Консольные шахматы v 1.0 от 16.01.2016 (Termit779)
  
-#include<iostream>
+#include <iostream>
 #include <string>
 using namespace std; 
  
@@ -44,7 +44,7 @@ void doska_print() // Вывод доски и фигур на экран
         cout << "   " << num;
         ++num;
     }
-    if (sum_hod % 2 == 0 & sum_hod > 0 | sum_hod == 1) {
+    if (((sum_hod % 2 == 0) & (sum_hod > 0)) | (sum_hod == 1)) {
         cout << endl << "Ход черных: "; // Приглашение к ходу
     }
     else {
