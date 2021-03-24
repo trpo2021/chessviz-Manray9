@@ -1,4 +1,4 @@
-// Консольные шахматы v 1.0 от 16.01.2016 (Termit779)
+
  
 #include <iostream>
 #include <string>
