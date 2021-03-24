@@ -22,7 +22,7 @@ struct Figura // Фигуры
  
 void doska_print() // Вывод доски и фигур на экран
 {
-    system("cls"); // Очищаем консоль (для Windows. В *Nix вроде не "канает")
+    system("cls"); // Очищаем консоль 
     char num = 'a'; // Для вывода указателей столбцов (a,b,c,d ...)
     cout << "|Выход 'Ctrl+Z'|" << endl;
     cout << "\t\t\t    Консольные шахматы v 1.0" << endl
